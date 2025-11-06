@@ -7,7 +7,3 @@ __pycache__/
 
 # Ignore environment and secrets
 .env
-
-# Ignore OS-specific files
-.DS_Store
-Thumbs.db
