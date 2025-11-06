@@ -1,4 +1,4 @@
-### CalmAI Meditation App
+# CalmAI Meditation App
 CalmAI is an AI-powered meditation and mindfulness assistant that generates personalized, emotionally resonant guided sessions. It combines GPT-4o for script generation, ElevenLabs for voice synthesis, and ambient background mixing to deliver immersive, calming audio experiences tailored to your mood.
 
 CalmAI/
