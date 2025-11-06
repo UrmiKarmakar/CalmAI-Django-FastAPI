@@ -1,0 +1,9 @@
+fastapi==0.120.1
+uvicorn
+openai
+pydub
+python-dotenv
+ffmpeg-python
+requests
+python-multipart
+gTTS
