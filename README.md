@@ -1,27 +1,6 @@
 # CalmAI Meditation App
 CalmAI is an AI-powered meditation and mindfulness assistant that generates personalized, emotionally resonant guided sessions. It combines GPT-4o for script generation, ElevenLabs for voice synthesis, and ambient background mixing to deliver immersive, calming audio experiences tailored to your mood.
 
-CalmAI/
-├── backend/                     # FastAPI logic and voice synthesis
-│   ├── script_generator.py      # Meditation script generation (OpenAI)
-│   ├── tts_engine.py            # Voice synthesis (ElevenLabs)
-│   ├── mixer.py                 # Background audio mixing (pydub)
-│   ├── output/                  # Stores generated audio files
-│   └── main.py                  # FastAPI entry point
-│
-├── calm_backend/                # Django project
-│   ├── manage.py                # Django entry point
-│   ├── calm_backend/            # Django settings and URLs
-│   └── meditation/              # Django app with API endpoint
-│       ├── views.py             # Calls backend logic
-│       └── urls.py              # Routes `/api/generate/`
-│
-├── static/                      # Background audio assets
-│   └── backgrounds/             # e.g., forest.mp3, ocean.mp3
-│
-├── .env                         # API keys and secrets
-└── requirements.txt             # Python dependencies
-
 # Features
 Personalized meditation scripts using OpenAI GPT-4o
 Natural voice synthesis with ElevenLabs (Jess, Adam, etc.)
